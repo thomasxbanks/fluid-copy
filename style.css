@@ -1,0 +1,86 @@
+html {
+  font-size: calc(16px + (24 - 16) * (100vmin - 320px) / (960 - 320)); }
+  html body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background: #efefef;
+    font-family: "Playfair Display", "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-position: 0 0;
+    background-repeat: repeat;
+    -webkit-background-size: 16px 16px;
+    background-size: 35px 35px; }
+    html body * {
+      display: block;
+      padding: 0;
+      margin: 0;
+      line-height: 1.5rem;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box; }
+    html body h1, html body h2, html body h3, html body h4, html body h5, html body h6 {
+      font-size: 1.25rem;
+      color: #444;
+      font-weight: 900;
+      line-height: 1.5; }
+    html body h1 {
+      font-size: 2rem; }
+    html body h2 {
+      font-size: 1.75rem; }
+    html body h3 {
+      font-size: 1.5rem; }
+    html body img {
+      width: 100%;
+      height: 20rem;
+      object-fit: cover;
+      object-position: top;
+      max-width: 100%;
+      margin: 0; }
+      html body img:first-child {
+        width: 100%;
+        height: 30rem;
+        margin-bottom: 1rem; }
+    html body p {
+      display: inline-block;
+      color: #666;
+      font-size: 1rem;
+      vertical-align: top;
+      padding: 1rem 0; }
+      html body p:nth-last-child(2) {
+        font-style: italic;
+        font-size: 1.25rem;
+        box-shadow: inset 4px 0 #aaa;
+        padding: .2rem .5rem 0 .5rem; }
+      @media screen and (max-width: 960px) {
+        html body p {
+          width: 100%; } }
+      html body p small {
+        font-size: 0.66rem; }
+    html body section[data-role="container"] {
+      margin: 0 auto;
+      max-width: 48rem;
+      font-size: calc(1rem - (.5rem + .5rem)); }
+    html body main {
+      display: inline-block;
+      max-width: 33rem;
+      font-size: calc(1rem - (.5rem + .5rem));
+      padding: 0 1rem; }
+      @media screen and (max-width: 799px) {
+        html body main {
+          display: block;
+          width: 100%; } }
+    html body aside {
+      display: inline-block;
+      width: 15rem;
+      vertical-align: top;
+      box-shadow: inset 4px 0 #dedede;
+      padding: 0 1rem; }
+      @media screen and (max-width: 799px) {
+        html body aside {
+          display: block;
+          box-shadow: inset 0 1px #dedede;
+          width: 100%; } }
+
+/*# sourceMappingURL=style.css.map */
